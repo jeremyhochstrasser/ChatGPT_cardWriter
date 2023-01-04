@@ -5,6 +5,11 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
+
+
+
+
+// Send call to GPT using prompt
 async function main() {
     const response = await openai.createCompletion({
         model: "text-davinci-003",
@@ -17,5 +22,7 @@ async function main() {
 
     console.log(completion);
 }
+//
+
 
 console.log(process.env.OPENAI_API_KEY);

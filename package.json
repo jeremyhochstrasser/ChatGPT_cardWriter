@@ -1,0 +1,23 @@
+{
+  "name": "chatgpt_cardwriter",
+  "version": "1.0.0",
+  "description": "Read CSV for GPT prompt",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyhochstrasser/ChatGPT_cardWriter.git"
+  },
+  "author": "Jeremy Hochstrasser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyhochstrasser/ChatGPT_cardWriter/issues"
+  },
+  "homepage": "https://github.com/jeremyhochstrasser/ChatGPT_cardWriter#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  }
+}

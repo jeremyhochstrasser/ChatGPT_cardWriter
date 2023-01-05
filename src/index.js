@@ -15,7 +15,7 @@ const Author = (process.env.AUTHOR);
 async function main(Cli_Name,Cli_Note) {
     const response = await openai.createCompletion({
         model: "text-davinci-003",
-        prompt: "Write a thank you letter from " + Author + " to " + Cli_Name + " that mentions the " + Cli_Note,
+        prompt: "Write a thank you letter from " + Author + ", as the author, to " + Cli_Name + " that mentions the " + Cli_Note,
         max_tokens: 200,
         temperature: 0.3,
       });``
